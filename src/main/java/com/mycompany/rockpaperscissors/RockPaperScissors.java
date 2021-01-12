@@ -77,7 +77,7 @@ public class RockPaperScissors {
                 }
             }
 
-            System.out.println("Would you like to play again?  1 for yes; anythingn else for no");
+            System.out.println("Would you like to play again?  1 for yes; anything else for no");
             String input = sc.nextLine();
             int inputInt = Integer.parseInt(input);
             if (inputInt == 1) {
